@@ -3,13 +3,13 @@ package proyecto.contabilidad.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.math.BigDecimal;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class MovimientoDTO {
-    private Long cuentaId;
-    private BigDecimal debe;
-    private BigDecimal haber;
+public class CuentaDTO {
+    private Long id;
+    private String codigo;
+    private String nombre;
+    private String tipo;
 }

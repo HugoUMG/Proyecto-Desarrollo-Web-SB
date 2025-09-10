@@ -1,5 +1,0 @@
-package proyecto.contabilidad.repository;
-
-public class UsuarioService {
-    
-}
